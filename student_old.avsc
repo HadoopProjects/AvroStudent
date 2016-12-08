@@ -1,0 +1,9 @@
+{
+    "name":"Student",
+    "type":"record",
+    "fields": [
+                    {"name":"name", "type":"string"},
+                    {"name":"age", "type":"int"},
+                    {"name":"subjects", "type":{ "type":"array", "items":{"type":"string"}}}
+                ]
+}
